@@ -52,6 +52,7 @@ button {
 button:hover {
     border-radius: 10px;
     cursor: pointer;
+    opacity:  80%;
 }
 #re-start{
     grid-column: 1/3;
