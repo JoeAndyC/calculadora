@@ -59,7 +59,7 @@ button {
     background-color: #DCCFEC;
 }
 
-button:hover {
+button:active {
     border-radius: 10px;
     cursor: pointer;
     opacity:  0.8;
