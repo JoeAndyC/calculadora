@@ -29,6 +29,7 @@ body {
     justify-content: center;
     align-items: flex-end;
     padding-right: 30px;
+    padding-top: 20px;
     box-sizing: border-box;
     font-size: 32px;
     width: 300px;
@@ -71,12 +72,6 @@ button:active {
     width: 135px;
 }
 
-#igualdad {
-    grid-column: 3/5;
-    width: 135px;
-}
-
 .especialButton {
     background-color:  #4F517D;
-
 }
