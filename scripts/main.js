@@ -8,7 +8,7 @@ let valAnterior;
 
 numeros.forEach((numero) => {
   numero.addEventListener('click', () => {
-    screenP.textContent += numero.innerText;
+    screenP.textContent += numero.textContent;
   });
 });
 
@@ -18,6 +18,7 @@ reStart.addEventListener('click', () => {
 
 operaciones.forEach((operacion) => {
   operacion.addEventListener('click', () => {
-    screenP.textContent += ` ${operacion.innerText} `;
+    screenP.textContent += ` ${operacion.textContent} `;
   });
 });
+
