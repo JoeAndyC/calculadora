@@ -1,7 +1,6 @@
 const numeros = document.querySelectorAll('.numero');
 const operaciones = document.querySelectorAll('.operacion');
 const igual = document.querySelector('#igualdad');
-const resultado = document.querySelector('#resultado');
 const reStart = document.querySelector('#reStart');
 const screenP = document.querySelector('#operacion');
 const borrar = document.querySelector('#borrar');
@@ -17,7 +16,7 @@ numeros.forEach((numero) => {
 
 reStart.addEventListener('click', () => {
   screenP.textContent = '';
-  resultado.textContent = '';
+ 
 });
 
 operaciones.forEach((operacion) => {
@@ -32,7 +31,7 @@ borrar.addEventListener('click', () => {
 
  igualdad.addEventListener('click', () => {
   try {
-    resultado.textContent = eval(screenP.textContent);
+    screenP.textContent = eval(screenP.textContent);
   } catch (error) {
     resultado.textContent = 'Error';
   };
